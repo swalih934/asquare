@@ -1,0 +1,25 @@
+/* Use Urbanist font (make sure it's loaded) */
+.font-urbanist {
+  font-family: 'Urbanist', sans-serif;
+}
+
+/* Bigger and cleaner nav items */
+.nav-big .nav-link,
+.nav-big .dropdown-toggle {
+  font-size: 1.2rem; /* Adjust as needed */
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.nav-big .nav-link:hover,
+.nav-big .dropdown-toggle:hover {
+  text-decoration: underline;
+}
+
+.nav-big-dropdown .dropdown-menu {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+}
+

@@ -1,0 +1,54 @@
+.review-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.review-header .section-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #6c757d;
+  letter-spacing: 1px;
+}
+
+.review-header .section-subtitle {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.5;
+  color: rgb(244, 20, 103);
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.review-description {
+  color: rgb(111, 107, 128);
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.review-name {
+  font-weight: bold;
+}
+
+.review-job {
+  color: red;
+}
+
+@media (max-width: 767.98px) {
+  .review-image {
+    max-width: 250px;
+  }
+
+  .review-header .section-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .review-description,
+  .review-name,
+  .review-job {
+    text-align: center;
+  }
+}

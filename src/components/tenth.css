@@ -1,0 +1,32 @@
+.group-discount-section {
+  background-color: rgba(235, 23, 99, 1);
+  width: 100vw;
+  height: 90vh;
+}
+
+.group-discount-heading {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 56px;
+}
+
+.group-discount-text {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btn.groupbutton {
+  background-color: rgb(243, 242, 242) !important;
+  color: rgba(235, 23, 99, 1) !important;
+  font-weight: 600;
+  border-radius: 0px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn.groupbutton:hover {
+  transform: scale(1.05);
+}
+

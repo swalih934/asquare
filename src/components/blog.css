@@ -1,0 +1,18 @@
+.image-hover-effect {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.image-hover-effect:hover {
+  transform: scale(1.05);
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+.background-image-hover {
+  transition: transform 0.4s ease;
+}
+
+.background-image-hover:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}

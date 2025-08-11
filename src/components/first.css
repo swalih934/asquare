@@ -1,0 +1,94 @@
+.carousel-full-bg {
+  height: 100vh; 
+  background-image: url('https://asquaretechnologiesweb.com/wp-content/uploads/2025/08/asquaretechnologies-bestanalytics-training-kochi.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.custom-rounded-carousel {
+  border-radius: 70px;
+  
+  overflow: hidden; 
+}
+
+.custom-carousel-controls .carousel-control-prev,
+.custom-carousel-controls .carousel-control-next {
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1rem;
+  z-index: 5;
+}
+
+.custom-carousel-controls .carousel-control-prev {
+  left: 0;
+}
+
+.custom-carousel-controls .carousel-control-next {
+  right: 0;
+}
+.first-carousel-wrapper {
+  padding: 0 1.5rem;
+}
+
+.carousel-full-bg {
+  background-color: #fff; 
+}
+
+.highlight-text {
+  color: rgba(235, 23, 99, 1);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(235, 23, 99, 1);
+}
+
+.sub-paragraph {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(235, 23, 99, 1);
+}
+
+.logo-sm {
+  max-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .sub-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .highlight-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .carousel-full-bg .row {
+    text-align: center;
+  }
+
+  .first-carousel-wrapper {
+    padding: 0 1rem;
+  }
+}
+

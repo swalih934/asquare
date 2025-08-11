@@ -1,0 +1,56 @@
+.custom-list p {
+  margin-bottom: 4px; /* Reduce vertical space (adjust as needed) */
+}
+/* Global padding for mobile: adds horizontal space on small screens */
+.px-responsive {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .px-responsive {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Headings, text, and spacing */
+.career-heading {
+  font-weight: 700;
+  line-height: 58px;
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(235, 23, 99, 1);
+}
+
+.career-text, .footer-text {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subheading {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.custom-list p {
+  margin-bottom: 6px;
+}
+
+/* Image hidden on mobile */
+@media (max-width: 767px) {
+  .career-image {
+    display: none;
+  }
+}
+
+/* Button styling */
+.btn-view-details {
+  border-radius: 0;
+  background-color: rgba(235, 23, 99, 1);
+  color: white;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
