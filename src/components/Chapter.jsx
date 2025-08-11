@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './seventh.css'
-function Seventh() {
+function Chapter() {
 
+    
     const cardData = [
         { img: 'https://asquaretechnologiesweb.com/wp-content/uploads/2025/07/asquare-technologies-genai-590x430.png', title: 'Generative AI', text: 'Description 1', lessons: '21', weeks: '24' },
         { img: 'https://asquaretechnologiesweb.com/wp-content/uploads/2025/01/asquaretechnologies-qliksense-training-kochi-590x430.jpg', title: 'Certified Qliksense Course', text: 'Description 1', lessons: '21', weeks: '24' },
@@ -17,9 +18,10 @@ function Seventh() {
         { img: 'https://asquaretechnologiesweb.com/wp-content/uploads/2023/03/tableau-590x430.webp', title: 'Certificate in Tableau Data Visualization', text: 'Description 1', lessons: '21', weeks: '24' },
 
     ];
-    return (
-        <>
-            <div className='container'>
+  return (
+<>
+
+ <div className='container'>
 
                 <div className="text-center mt-5">
                     <h3 className="section-heading">Step Into Your Next Chapter</h3>
@@ -70,8 +72,7 @@ function Seventh() {
                 </Container>
 
             </div>
-
-        </>)
+</>  )
 }
 
-export default Seventh
+export default Chapter

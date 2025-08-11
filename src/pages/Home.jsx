@@ -5,13 +5,13 @@ import Secont from '../components/Secont'
 import Third from '../components/Third'
 import Fourth from '../components/Fourth'
 import Sixth from '../components/Sixth'
-import Seventh from '../components/seventh'
 import Eight from '../components/Eight'
 import Ninth from '../components/Ninth'
 import Tenth from '../components/Tenth'
 import Eleven from '../components/Eleven'
 import Blog from '../components/Blog'
 import Footer from '../components/Footer'
+import Chapter from '../components/Chapter'
 import './home.css'
 function Home() {
     return (
@@ -21,7 +21,7 @@ function Home() {
 <Third/>
 <Fourth/>
 <Sixth/>
-<Seventh/>
+<Chapter/>
 <Eight/>
 <Ninth/>
 <Tenth/>
